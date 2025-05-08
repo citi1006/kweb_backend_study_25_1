@@ -1,5 +1,28 @@
 {
   "dependencies": {
-    "lodash": "^4.17.21"
-  }
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.3"
+  },
+  "name": "bestudy",
+  "version": "1.0.0",
+  "main": "cases.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citi1006/kweb_backend_study_25_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citi1006/kweb_backend_study_25_1/issues"
+  },
+  "homepage": "https://github.com/citi1006/kweb_backend_study_25_1#readme",
+  "description": ""
 }
