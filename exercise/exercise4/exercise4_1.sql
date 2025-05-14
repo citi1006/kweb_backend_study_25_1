@@ -1,14 +1,14 @@
 CREATE TABLE departments(
     `id` INT NOT NULL,
-    `kor_name` VARCHAR(16) not null,
+    `kor_name` VARCHAR(16) NOT NULL,
     PRIMARY KEY(`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE students(
     `name` VARCHAR(20) NOT NULL,
     `year` YEAR NOT NULL,
-    `major_code` INT not NULL,
-    `stu_id` INT not null,
+    `major_code` INT NOT NULL,
+    `stu_id` INT NOT NULL,
     `phone` VARCHAR(20),
     `address` VARCHAR(50),
     `total_credit` INT DEFAULT 0,
